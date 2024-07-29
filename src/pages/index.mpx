@@ -1,21 +1,17 @@
-<template>
-  <list></list>
-</template>
-
-<script lang="ts">
-import { createPage } from '@mpxjs/core'
-
-createPage({
-  onLoad() {
-    //
-  }
-})
-</script>
+<template></template>
 
 <script type="application/json">
   {
-    "usingComponents": {
-      "list": "../components/list"
-    }
+    "usingComponents": {}
   }
+</script>
+
+<script lang="ts">
+  import { createPage } from '@mpxjs/core'
+
+  createPage({
+    onLoad() {
+      //
+    }
+  })
 </script>

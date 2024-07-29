@@ -11,5 +11,14 @@
   "appid": "touristappid",
   "projectname": "mpx-scaffold",
   "description": "mpx scaffold",
-  "condition": {}
+  "condition": {},
+  "packOptions": {
+    "ignore": [
+      {
+        "value": "cdn-assets",
+        "type": "folder"
+      }
+    ],
+    "include": []
+  }
 }

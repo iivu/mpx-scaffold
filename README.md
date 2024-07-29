@@ -1,13 +1,21 @@
 # mpx-scaffold
 
-## Project setup
+## Use `degit`
 
-```javascript
-// development
-npm run serve // 小程序本地开发构建
+```bash
+// ssh
+degit git@github.com:iivu/mpx-scaffold.git [your workspace]
 
+// https
+degit https://github.com/iivu/mpx-scaffold.git [your workspace]
+```
 
-// production
-npm run build // 小程序生产环境构建
+## Use `git clone`
 
+```bash
+// ssh
+git clone --depth 1 git@github.com:iivu/mpx-scaffold.git [your workspace]
+
+// https
+git clone --depth 1 https://github.com/iivu/mpx-scaffold.git [your workspace]
 ```
